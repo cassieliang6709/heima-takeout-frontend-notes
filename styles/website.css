@@ -1,0 +1,176 @@
+/*
+ * 苍穹外卖 · 前端篇
+ * GitBook theme: black / white / blue / green
+ */
+:root {
+  --ink: #111827;
+  --muted: #64748b;
+  --line: #dbe3ea;
+  --paper: #ffffff;
+  --wash: #f6f8fa;
+  --blue: #2563eb;
+  --blue-dark: #1d4ed8;
+  --green: #15803d;
+  --green-wash: #f0fdf4;
+  --code: #0f172a;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.book-summary {
+  background: var(--wash);
+  border-right: 1px solid var(--line);
+}
+
+.book-summary ul.summary li a,
+.book-summary ul.summary li span {
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.book-summary ul.summary li.active > a {
+  color: var(--blue-dark);
+  border-left: 3px solid var(--blue);
+  background: #eef4ff;
+  font-weight: 700;
+}
+
+.book-summary ul.summary li a:hover {
+  color: var(--blue-dark);
+  background: #eef4ff;
+}
+
+.book-header,
+.book-header h1 {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.book-body .page-wrapper .page-inner {
+  max-width: 820px;
+}
+
+.markdown-section {
+  color: var(--ink);
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4 {
+  color: var(--ink);
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.markdown-section h1 {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 0.45em;
+}
+
+.markdown-section h2 {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.3em;
+}
+
+.markdown-section a {
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.markdown-section a:hover {
+  color: var(--blue-dark);
+  border-bottom-color: var(--blue-dark);
+}
+
+.markdown-section blockquote {
+  color: #334155;
+  background: var(--green-wash);
+  border-left: 4px solid var(--green);
+  padding: 0.7em 1em;
+}
+
+.markdown-section blockquote strong {
+  color: var(--green);
+}
+
+.markdown-section code {
+  color: var(--blue-dark);
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+  border-radius: 3px;
+  padding: 0.12em 0.3em;
+}
+
+.markdown-section pre,
+.markdown-section pre code {
+  color: #e2e8f0;
+  background: var(--code);
+  border: 0;
+}
+
+.markdown-section pre {
+  border-left: 4px solid var(--blue);
+  border-radius: 0;
+}
+
+.markdown-section table {
+  display: table;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-collapse: collapse;
+}
+
+.markdown-section table thead {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.markdown-section table th,
+.markdown-section table td {
+  border: 1px solid var(--line);
+  padding: 0.65em 0.8em;
+}
+
+.markdown-section table tr:nth-child(even) {
+  background: var(--wash);
+}
+
+.markdown-section hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+.markdown-section img {
+  border: 1px solid var(--line);
+}
+
+/* GitBook default search input */
+.book-search input {
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+
+/* Support link: green action, still restrained like the reference site. */
+.markdown-section a[href*="buymeacoffee"] {
+  display: inline-block;
+  color: var(--paper);
+  background: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 3px;
+  padding: 0.35em 0.8em;
+  font-weight: 700;
+}
+
+.markdown-section a[href*="buymeacoffee"]:hover {
+  color: var(--paper);
+  background: #166534;
+}

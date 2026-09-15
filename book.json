@@ -1,0 +1,15 @@
+{
+  "title": "苍穹外卖 · 前端篇",
+  "description": "黑马程序员《苍穹外卖》前端篇学习资料",
+  "language": "zh-hans",
+  "author": "Cassie",
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "-sharing",
+    "-fontsettings",
+    "-search",
+    "-lunr"
+  ]
+}
