@@ -29,6 +29,9 @@ jobs:
       - name: Build HonKit site
         run: npx --yes honkit@6.2.2 build
 
+      - name: Fix rendered Vue examples
+        run: node scripts/postprocess-html.mjs
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

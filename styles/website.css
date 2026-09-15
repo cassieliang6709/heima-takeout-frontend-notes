@@ -53,7 +53,65 @@ body {
 }
 
 .book-body .page-wrapper .page-inner {
-  max-width: 820px;
+  max-width: 1080px;
+}
+
+.markdown-section .page-toc {
+  float: right;
+  width: 230px;
+  position: sticky;
+  top: 24px;
+  z-index: 2;
+  margin: 0 0 1.5em 2em;
+  padding: 1em 1.1em;
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  line-height: 1.45;
+}
+
+.markdown-section .page-toc strong {
+  display: block;
+  margin-bottom: 0.6em;
+  color: var(--ink);
+}
+
+.markdown-section .page-toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.markdown-section .page-toc li {
+  margin: 0.35em 0;
+}
+
+.markdown-section .page-toc a {
+  display: block;
+  padding: 0.25em 0.35em;
+  border: 0;
+  border-radius: 4px;
+  color: #334155;
+  font-size: 14px;
+}
+
+.markdown-section .page-toc a:hover {
+  color: var(--blue-dark);
+  background: #eef4ff;
+}
+
+@media screen and (max-width: 900px) {
+  .book-body .page-wrapper .page-inner {
+    max-width: 820px;
+  }
+
+  .markdown-section .page-toc {
+    float: none;
+    position: static;
+    width: auto;
+    margin: 0 0 1.5em;
+  }
 }
 
 .markdown-section {

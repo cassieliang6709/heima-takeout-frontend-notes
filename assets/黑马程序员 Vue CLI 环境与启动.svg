@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="white"/>
+  <style>
+    .title { font: 700 34px Arial, 'Microsoft YaHei', sans-serif; fill: #222; }
+    .section { font: 700 28px Arial, 'Microsoft YaHei', sans-serif; fill: #222; }
+    .bullet { font: 24px Arial, 'Microsoft YaHei', sans-serif; fill: #222; }
+    .code { font: 24px 'SFMono-Regular', Consolas, monospace; fill: #222; }
+  </style>
+  <text x="70" y="90" class="title">1. 基于vue开发前端项目的环境要求</text>
+  <text x="105" y="145" class="bullet">•　node.js</text>
+  <text x="105" y="190" class="bullet">•　npm</text>
+  <text x="105" y="235" class="bullet">•　Vue CLI</text>
+  <text x="70" y="325" class="title">2. 前端工程创建方式</text>
+  <text x="105" y="380" class="bullet">•　vue create 项目名称</text>
+  <text x="105" y="425" class="bullet">•　vue ui</text>
+  <text x="70" y="515" class="title">3. 启动、停止前端项目</text>
+  <text x="105" y="570" class="bullet">•　启动：npm run serve</text>
+  <text x="105" y="615" class="bullet">•　停止：Ctrl + C</text>
+  <text x="70" y="705" class="title">4. 前端项目中的重点文件</text>
+  <text x="105" y="760" class="bullet">•　main.js</text>
+  <text x="105" y="805" class="bullet">•　vue.config.js</text>
+  <text x="105" y="850" class="bullet">•　package.json</text>
+  <text x="105" y="895" class="bullet">•　App.vue</text>
+</svg>
